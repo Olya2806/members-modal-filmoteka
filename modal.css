@@ -101,8 +101,20 @@ font-family: 'Roboto', sans-serif;
 
 .modal-title {
     text-align: center;
-    font-size: 40px;
+    font-size: 40px; 
     color: rgba(255, 255, 255, 1);
+/* 
+        @media screen and (min-width: 480px) {
+            font-size: 30px;
+        }
+    
+        @media screen and(min-width:768px) {
+            font-size: 35px;
+        }
+    
+        @media screen and(min-width:1280px) {
+            font-size: 40px;
+        } */
 }
 .members-name, .members-descr{
     color: rgba(255, 255, 255, 1);
